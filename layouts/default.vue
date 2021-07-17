@@ -1,28 +1,12 @@
 <template>
-  <div class="container" style="max-width: 95% !important;">
-    <CThemeProvider>
-      <CColorModeProvider #default="{ colorMode }">
-        <CBox 
-          font-family="body" 
-          v-bind="mainStyles[colorMode]"
-          as="section"
-        >
-          <CReset />
-          <Header />
-          <Nuxt />
-          <Footer />
-        </CBox>
-      </CColorModeProvider>
-    </CThemeProvider>
+  <div class="" 
+    style="background-image: url(http://themepure.net/template/sycho-prv/sycho/assets/img/slider/slider-bg.jpg);">
+    <Header />
+    <Nuxt />
+    <Footer />
   </div>
 </template>
 <script>
-import {
-  CThemeProvider,
-  CColorModeProvider,
-  CReset,
-  CBox
-} from '@chakra-ui/vue'
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -30,10 +14,6 @@ import Footer from '@/components/Footer'
 export default {
   name: 'App',
   components: {
-    CThemeProvider,
-    CColorModeProvider,
-    CReset,
-    CBox,
     Header,
     Footer,
   },
@@ -53,3 +33,22 @@ export default {
   },
 }
 </script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+
+  .brand-text {
+    font-family: 'Courgette', cursive !important;
+    font-size: -webkit-xxx-large;
+  }
+
+  body {
+    font-family: 'Carme', sans-serif !important;
+  }
+
+  .new-button {
+    border-radius: 0 50px 50px 50px !important;
+    padding: 0 50px;
+    text-transform: uppercase;
+  }
+</style>

@@ -8,23 +8,6 @@
 </template>
 
 <script lang="js">
-import {
-  CBox,
-  CButton,
-  CAvatarGroup,
-  CAvatar,
-  CAvatarBadge,
-  CModal,
-  CModalContent,
-  CModalOverlay,
-  CModalHeader,
-  CModalFooter,
-  CModalBody,
-  CModalCloseButton,
-  CIconButton,
-  CFlex,
-  CHeading
-} from '@chakra-ui/vue'
 
 import Hero from '~/components/Hero'
 import Services from '~/components/Services'
@@ -39,7 +22,6 @@ export default {
     Contact,
     About,
   },
-  inject: ['$chakraColorMode', '$toggleColorMode'],
   data () {
     return {
     }
