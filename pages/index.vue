@@ -3,6 +3,7 @@
     <Hero />
     <Services />
     <Contact />
+    <About />
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import {
 import Hero from '~/components/Hero'
 import Services from '~/components/Services'
 import Contact from '~/components/Contact'
+import About from '~/components/About'
 
 export default {
   name: 'App',
@@ -35,6 +37,7 @@ export default {
     Hero,
     Services,
     Contact,
+    About,
   },
   inject: ['$chakraColorMode', '$toggleColorMode'],
   data () {

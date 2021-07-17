@@ -1,41 +1,49 @@
 <template>
-    <div class="has-text-centered">
-        <h2>Our Services</h2>
+    <div>
         <div class="columns">
-            <div class="column mx-2">
+            <div class="column">
                 <div class="card">
                     <div class="is-rounded">
                         <figure class="image">
                             <img src="http://themepure.net/template/sycho-prv/sycho/assets/img/services/services-1.jpg" />
                         </figure>
-                        <div class="buttons">
-                            <b-button type="is-primary" expanded>Expanded</b-button>
+                        <div class="card-content has-text-centered">
+                            Full name <br/>
+                            Position <hr />
+                            email@mail.com <br/>
+                            123-456-789
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="column mx-2">
+            <div class="column">
                 <div class="card">
                     <div class="is-rounded">
                         <figure class="image">
                             <img src="http://themepure.net/template/sycho-prv/sycho/assets/img/services/services-1.jpg" />
                         </figure>
-                        <div class="buttons">
-                            <b-button type="is-primary" expanded>Expanded</b-button>
+                        <div class="card-content has-text-centered">
+                            Full name <br/>
+                            Position <hr />
+                            email@mail.com <br/>
+                            123-456-789
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="column mx-2">
+            <div class="column">
                 <div class="card">
                     <div class="is-rounded">
                         <figure class="image">
                             <img src="http://themepure.net/template/sycho-prv/sycho/assets/img/services/services-1.jpg" />
                         </figure>
-                        <div class="buttons">
-                            <b-button type="is-primary" expanded>Expanded</b-button>
+                        <div class="card-content has-text-centered">
+                            Full name <br/>
+                            Position <hr />
+                            email@mail.com <br/>
+                            123-456-789
                         </div>
                     </div>
                 </div>
