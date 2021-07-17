@@ -10,6 +10,7 @@
           <CReset />
           <Header />
           <Nuxt />
+          <Footer />
         </CBox>
       </CColorModeProvider>
     </CThemeProvider>
@@ -24,6 +25,7 @@ import {
 } from '@chakra-ui/vue'
 
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'App',
@@ -33,6 +35,7 @@ export default {
     CReset,
     CBox,
     Header,
+    Footer,
   },
   data() {
     return {
