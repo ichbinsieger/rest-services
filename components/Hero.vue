@@ -2,7 +2,7 @@
     <div>
         <div class="columns">
             <div class="column"></div>
-            <div class="column is-8">
+            <div class="column is-8 carousel-container">
                 <b-carousel
                     animated="fade"
                     :repeat="true"
@@ -52,3 +52,9 @@
         },  
     }
 </script>
+
+<style scoped>
+    .carousel-container {
+        padding: 0 !important;
+    }
+</style>

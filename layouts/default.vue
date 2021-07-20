@@ -51,4 +51,8 @@ export default {
     padding: 0 50px;
     text-transform: uppercase;
   }
+
+  .container {
+    max-width: 99% !important;
+  }
 </style>
