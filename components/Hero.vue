@@ -1,14 +1,7 @@
 <template>
     <div>
         <div class="columns">
-            <div class="column">
-                <div class="hero-title has-text-weight-bold">
-                    <h2>Your mental well being is our commitment</h2>
-                    <b-button type="is-primary is-rounded new-button has-background-white button-white">Book Appointment</b-button>
-                </div>
-                
-            </div>
-            <div class="column is-8 carousel-container">
+            <div class="column carousel-container">
                 <b-carousel
                     animated="fade"
                     :repeat="true"
