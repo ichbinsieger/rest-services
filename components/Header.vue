@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar mx-6 px-6" role="navigation" aria-label="main navigation">
+    <nav class="navbar px-6" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
           <div class="brand-text has-text-weight-bold">
