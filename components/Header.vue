@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar mx-4" role="navigation" aria-label="main navigation">
+    <nav class="navbar mx-6 px-6" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
           <div class="brand-text has-text-weight-bold">
@@ -16,52 +16,52 @@
       </div>
 
       <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-end mr-6">
+        <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Home </nuxt-link>
 
-          <div class="navbar-item has-dropdown has-text-primary is-hoverable has-text-weight-bold is-size-6">
-            <a class="navbar-link has-text-primary">
+          <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
+            <a class="navbar-link has-text-primary has-text-weight-bold">
               About us
             </a>
 
-            <div class="navbar-dropdown is-right">
-              <a class="navbar-item">
+            <div class="navbar-dropdown is-right has-background-primary has-text-white">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Our Work
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Our Services
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 About Homelessness
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Job Vacancies
               </a>
             </div>
           </div>
 
-          <div class="navbar-item has-dropdown has-text-primary is-hoverable has-text-weight-bold is-size-6">
-            <a class="navbar-link has-text-primary">
+          <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
+            <a class="navbar-link has-text-primary has-text-weight-bold">
               Residents
             </a>
 
-            <div class="navbar-dropdown is-right">
-              <a class="navbar-item">
+            <div class="navbar-dropdown is-right has-background-primary has-text-white">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Report a Repair
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Paying Rent
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Anti-social Behaviour
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Useful Information
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Case Studies
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Downloads
               </a>
             </div>
@@ -69,22 +69,22 @@
           
           <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Referrals </nuxt-link>
 
-          <div class="navbar-item has-dropdown has-text-primary is-hoverable has-text-weight-bold is-size-6">
-            <a class="navbar-link has-text-primary">
+          <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
+            <a class="navbar-link has-text-primary has-text-weight-bold">
               Partners
             </a>
 
-            <div class="navbar-dropdown is-right">
-              <a class="navbar-item">
+            <div class="navbar-dropdown is-right has-background-primary has-text-white">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Property Owners
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Housing Associations
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 About Homelessness
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item has-text-white  dropdown-item">
                 Job Vacancies
               </a>
             </div>
@@ -146,5 +146,9 @@ export default {
 
   .navbar-end {
     border-bottom: 3px solid #003B56;
+  }
+
+  .dropdown-item:hover {
+    background-color: #ffffff21 !important;
   }
 </style>

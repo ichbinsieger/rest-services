@@ -12,10 +12,10 @@
                     :pause-info="false">
                     <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
                         <section :class="`hero is-medium `">
-                            <div class="hero-body has-text-centered" style="padding-right: 0;">
+                            <div class="hero-body has-text-centered" style="padding-right: 0; padding-left: 0; padding-bottom: 0;">
                                 <figure class="image">
                                     <img :src="carousel.image"
-                                        style="border-radius: 10px 0 0 10px;"
+                                        style="border-radius: 100px 0 0 0;"
                                      />
                                 </figure>
                             </div>
@@ -23,6 +23,11 @@
                     </b-carousel-item>
                 </b-carousel>
             </div>
+        </div>
+        <div class="hero-text-container ml-6 pl-6">
+            <h1 class="has-text-weight-bold is-size-1 has-background-black has-text-white hero-text px-3">We offer a safe and secure</h1>
+            <h1 class="has-text-weight-bold is-size-1 has-background-black has-text-white hero-text px-3 my-2">environment for people in need</h1>
+            <button class="button is-primary has-text-weight-bold is-size-4" style="border-radius: .75rem;">Learn More</button>
         </div>
     </div>
 </template>
@@ -68,7 +73,14 @@
         background-color: transparent !important;
     }
 
-    .hero-title {
-        margin: 400px 0 0 20px;
+    .hero-text {
+        width: fit-content;
+    }
+
+    .hero-text-container {
+        margin-top: -200px;
+        z-index: 1;
+        position: absolute;
+        top: 800px;
     }
 </style>
