@@ -1,6 +1,5 @@
 <template>
-  <div class="" 
-    style="background-image: url(http://themepure.net/template/sycho-prv/sycho/assets/img/slider/slider-bg.jpg);">
+  <div class="" >
     <Header />
     <Nuxt />
     <Footer />
