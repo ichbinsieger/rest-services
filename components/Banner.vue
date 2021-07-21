@@ -1,5 +1,5 @@
 <template>
-    <div class="has-background-primary">
+    <div class="bg-black" style="margin: 0 !important;">
         <div class="columns px-6">
             <div class="column"></div>
             <div class="column has-text-right py-6"></div>
