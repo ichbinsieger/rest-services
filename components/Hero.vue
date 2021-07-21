@@ -1,7 +1,13 @@
 <template>
     <div>
         <div class="columns">
-            <div class="column"></div>
+            <div class="column">
+                <div class="hero-title has-text-weight-bold">
+                    <h2>Your mental well being is our commitment</h2>
+                    <b-button type="is-primary is-rounded new-button has-background-white button-white">Book Appointment</b-button>
+                </div>
+                
+            </div>
             <div class="column is-8 carousel-container">
                 <b-carousel
                     animated="fade"
@@ -13,9 +19,11 @@
                     :pause-info="false">
                     <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
                         <section :class="`hero is-medium `">
-                            <div class="hero-body has-text-centered">
+                            <div class="hero-body has-text-centered" style="padding-right: 0;">
                                 <figure class="image">
-                                    <img :src="carousel.image" />
+                                    <img :src="carousel.image"
+                                        style="border-radius: 10px 0 0 10px;"
+                                     />
                                 </figure>
                             </div>
                         </section>
@@ -56,5 +64,18 @@
 <style scoped>
     .carousel-container {
         padding: 0 !important;
+    }
+
+    .button-white {
+        color: #056c5f;
+    }
+
+    .button-white:hover {
+        border-color: white !important;
+        background-color: transparent !important;
+    }
+
+    .hero-title {
+        margin: 400px 0 0 20px;
     }
 </style>

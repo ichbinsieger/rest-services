@@ -50,9 +50,15 @@ export default {
     border-radius: 0 50px 50px 50px !important;
     padding: 0 50px;
     text-transform: uppercase;
+    color: #056c5f;
   }
 
   .container {
     max-width: 99% !important;
+  }
+
+  .new-button:hover {
+    border-color: white !important;
+    background-color: transparent !important;
   }
 </style>
