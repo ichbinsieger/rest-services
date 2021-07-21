@@ -1,8 +1,13 @@
 <template>
-    <div class="bg-black" style="margin: 0 !important;">
-        <div class="columns px-6">
-            <div class="column"></div>
-            <div class="column has-text-right py-6"></div>
+    <div class="has-background-primary" style="margin-top: 120px !important;">
+        <div class="columns mx-6 px-6 my-6">
+            <div class="column py-6">
+                <h4 class="has-text-white is-size-4 has-text-weight-semibold">{{ title }}</h4>
+                <p class="has-text-white">{{ description }}</p>
+            </div>
+            <div class="column has-text-right py-6 pr-6">
+                <button class="button is-white is-outlined" style="border-radius: .75rem;" @click="$router.push(`${buttonLink}`)">{{ buttonText }}</button>
+            </div>
         </div>
     </div>
 </template>

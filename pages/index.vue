@@ -2,7 +2,11 @@
   <div class="">
     <Hero />
     <Values />
-    <Banner />
+    <Banner
+      title="Contact us today!"
+      description="contact us now to find out if you meet the requirements to work with Rest Services."
+      buttonText="Contact us"
+    />
     <Services />
     <Contact />
     <About />

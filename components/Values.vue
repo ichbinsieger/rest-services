@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="margin-top: 120px !important;">
         <h2 class="has-text-black has-text-weight-bold is-size-3 has-text-centered">Our Values</h2>
         <div class="columns mx-6 px-6 my-4">
             <div class="column has-text-black">
