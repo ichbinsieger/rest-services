@@ -46,4 +46,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // ignored elements
+  vue: {
+    config: {
+      ignoredElements: [/^ion-/]
+    },
+  },
+
+  // disable ssr
+  // ssr: false,
 }
