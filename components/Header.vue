@@ -90,9 +90,9 @@
             </div>
           </div>
 
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Contact </nuxt-link>
+          <nuxt-link to="/contact" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Contact </nuxt-link>
 
-          <nuxt-link to="/" class="navbar-item has-text-white has-text-weight-semibold is-size-6 has-background-primary"> Get Involved </nuxt-link>
+          <nuxt-link to="/get-involved" class="navbar-item has-text-white has-text-weight-semibold is-size-6 has-background-primary"> Get Involved </nuxt-link>
         </div>
       </div>
     </nav>
