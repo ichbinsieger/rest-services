@@ -2,14 +2,17 @@
   <div class="">
     <Hero />
     <Values />
-    <Banner
-      title="Contact us today!"
-      description="contact us now to find out if you meet the requirements to work with Rest Services."
-      buttonText="Contact us"
-    />
     <Services />
-    <Contact />
-    <About />
+    <div class="help-section">
+      <Help class="counter-skew" />
+      <Banner
+        title="Get help today"
+        description="We accept clients, male and female, aged 18 years and over with or without a local connection to Blackpool."
+        buttonText="View Referrals"
+        class="counter-skew"
+      />
+    </div>
+    <Enquiry />
   </div>
 </template>
 
@@ -19,8 +22,8 @@ import Hero from '~/components/Hero'
 import Values from '~/components/Values'
 import Banner from '~/components/Banner'
 import Services from '~/components/Services'
-import Contact from '~/components/Contact'
-import About from '~/components/About'
+import Help from '~/components/Help'
+import Enquiry from '~/components/Enquiry'
 
 export default {
   name: 'App',
@@ -29,8 +32,8 @@ export default {
     Values,
     Banner,
     Services,
-    Contact,
-    About,
+    Help,
+    Enquiry,
   },
   data () {
     return {
@@ -40,3 +43,16 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .help-section {
+    background-color: #efefef;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    transform: skewY(-3deg);
+  }
+
+  .counter-skew {
+    transform: skewY(3deg);
+  }
+</style>
