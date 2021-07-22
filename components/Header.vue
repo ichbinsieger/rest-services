@@ -108,7 +108,8 @@ export default {
 
 <style scoped>
   .navbar {
-    background-color: #ffffff0d;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px #000 !important;
     position: fixed;
     top: 0;
     width: -webkit-fill-available;

@@ -1,14 +1,14 @@
-name: ci
+name: ci/cd
 
 on:
   push:
     branches:
-      - main
-      - master
+      # - main
+      # - master
   pull_request:
     branches:
-      - main
-      - master
+      # - main
+      # - master
 
 jobs:
   ci:
