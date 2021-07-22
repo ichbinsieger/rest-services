@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar px-6" role="navigation" aria-label="main navigation">
+    <nav class="navbar padded-nav" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
           <div class="brand-text has-text-weight-bold">
@@ -150,5 +150,10 @@ export default {
 
   .dropdown-item:hover {
     background-color: #ffffff21 !important;
+  }
+
+  .padded-nav {
+    padding-left: 104px !important;
+    padding-right: 104px !important;
   }
 </style>
