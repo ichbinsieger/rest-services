@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar px-6" role="navigation" aria-label="main navigation">
+    <nav class="navbar padded-nav" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
           <div class="brand-text has-text-weight-bold">
@@ -17,10 +17,10 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Home </nuxt-link>
+          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Home </nuxt-link>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-bold">
+            <a class="navbar-link has-text-primary has-text-weight-semibold">
               About us
             </a>
 
@@ -41,7 +41,7 @@
           </div>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-bold">
+            <a class="navbar-link has-text-primary has-text-weight-semibold">
               Residents
             </a>
 
@@ -67,10 +67,10 @@
             </div>
           </div>
           
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Referrals </nuxt-link>
+          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Referrals </nuxt-link>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-bold">
+            <a class="navbar-link has-text-primary has-text-weight-semibold">
               Partners
             </a>
 
@@ -90,9 +90,9 @@
             </div>
           </div>
 
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Contact </nuxt-link>
+          <nuxt-link to="/contact" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Contact </nuxt-link>
 
-          <nuxt-link to="/" class="navbar-item has-text-white has-text-weight-bold is-size-6 has-background-primary"> Get Involved </nuxt-link>
+          <nuxt-link to="/get-involved" class="navbar-item has-text-white has-text-weight-semibold is-size-6 has-background-primary"> Get Involved </nuxt-link>
         </div>
       </div>
     </nav>
@@ -108,7 +108,8 @@ export default {
 
 <style scoped>
   .navbar {
-    background-color: #ffffff0d;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px #000 !important;
     position: fixed;
     top: 0;
     width: -webkit-fill-available;
@@ -150,5 +151,10 @@ export default {
 
   .dropdown-item:hover {
     background-color: #ffffff21 !important;
+  }
+
+  .padded-nav {
+    padding-left: 104px !important;
+    padding-right: 104px !important;
   }
 </style>
