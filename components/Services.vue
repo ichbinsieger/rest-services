@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-6 px-6">
+    <div class="mx-6 px-6" style="margin-top: 120px !important;">
         <div class="has-text-black has-text-centered">
             <h2 class="has-text-weight-bold is-size-3">Our Services</h2>
             <p>What we do</p>
