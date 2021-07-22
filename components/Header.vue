@@ -17,10 +17,10 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Home </nuxt-link>
+          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Home </nuxt-link>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-bold">
+            <a class="navbar-link has-text-primary has-text-weight-semibold">
               About us
             </a>
 
@@ -41,7 +41,7 @@
           </div>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-bold">
+            <a class="navbar-link has-text-primary has-text-weight-semibold">
               Residents
             </a>
 
@@ -67,10 +67,10 @@
             </div>
           </div>
           
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Referrals </nuxt-link>
+          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Referrals </nuxt-link>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-bold">
+            <a class="navbar-link has-text-primary has-text-weight-semibold">
               Partners
             </a>
 
@@ -90,9 +90,9 @@
             </div>
           </div>
 
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-bold is-size-6"> Contact </nuxt-link>
+          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Contact </nuxt-link>
 
-          <nuxt-link to="/" class="navbar-item has-text-white has-text-weight-bold is-size-6 has-background-primary"> Get Involved </nuxt-link>
+          <nuxt-link to="/" class="navbar-item has-text-white has-text-weight-semibold is-size-6 has-background-primary"> Get Involved </nuxt-link>
         </div>
       </div>
     </nav>
