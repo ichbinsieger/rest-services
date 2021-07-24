@@ -14,7 +14,7 @@
             </div>
 
             <div class="mainContact bg-white w-full " v-if="true === false">
-                <div class="contactLinks w-full md:mt-24 mt-12  md:flex mx-6 px-6">
+                <div class="contactLinks w-full md:mt-24 mt-12  md:flex md:mx-6 md:px-6">
                     <div class="link1 m-10 md:m-0  md:w-2/6 bord er-gray-100 border rounded   p-20 flex flex-col justify-center  h-96 shadow mx-3">
                         <p class="text-base flex justify-center p-5"> 1, rest service avenue, rest city</p>
                         <a class="flex justify-center p-5 hover:no-underline no-underline text-black "  href="tel:+44 1234 567890">  
