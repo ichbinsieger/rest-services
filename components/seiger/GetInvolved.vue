@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <div class="contactInfo w-full mt-20 py-4 md:pl-16 pl-0" style="background-color: #eeeeee;">
+        <div class=" w-full mt-20 py-4 md:pl-16 pl-0" style="background-color: #eeeeee;">
                 <div class="mx-6 md:px-6 px-0 py-4">
                     <div class="contactDirectry text-lg  no-underline">
                         <nuxt-link class="has-text-primary pr-2 text-black focus:text-gray-800 md:pr-0 no-underline" to="/">Home</nuxt-link> /  

@@ -67,7 +67,7 @@
             </div>
           </div>
           
-          <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Referrals </nuxt-link>
+          <nuxt-link to="/referral" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Referrals </nuxt-link>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
             <a class="navbar-link has-text-primary has-text-weight-semibold">
