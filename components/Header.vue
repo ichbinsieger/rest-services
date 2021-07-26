@@ -20,20 +20,20 @@
           <nuxt-link to="/" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Home </nuxt-link>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-semibold">
+            <nuxt-link to="/about" class="navbar-link has-text-primary has-text-weight-semibold">
               About us
-            </a>
+            </nuxt-link>
 
             <div class="navbar-dropdown is-right has-background-primary has-text-white">
-              <a class="navbar-item has-text-white  dropdown-item">
+              <nuxt-link to="/about#wehelp" class="navbar-item has-text-white  dropdown-item">
                 Our Work
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
+              </nuxt-link>
+              <nuxt-link to="./services" class="navbar-item has-text-white  dropdown-item">
                 Our Services
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
+              </nuxt-link>
+              <nuxt-link to="/about#homelessness" class="navbar-item has-text-white  dropdown-item">
                 About Homelessness
-              </a>
+              </nuxt-link>
               <a class="navbar-item has-text-white  dropdown-item">
                 Job Vacancies
               </a>
@@ -75,18 +75,13 @@
             </a>
 
             <div class="navbar-dropdown is-right has-background-primary has-text-white">
-              <a class="navbar-item has-text-white  dropdown-item">
+              <nuxt-link to="/partners" class="navbar-item has-text-white  dropdown-item">
                 Property Owners
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
+              </nuxt-link>
+              <nuxt-link to="/partners#associations" class="navbar-item has-text-white  dropdown-item">
                 Housing Associations
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
-                About Homelessness
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
-                Job Vacancies
-              </a>
+              </nuxt-link>
+              
             </div>
           </div>
 
