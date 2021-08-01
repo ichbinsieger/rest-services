@@ -28,7 +28,7 @@
               <nuxt-link to="/about#wehelp" class="navbar-item has-text-white  dropdown-item">
                 Our Work
               </nuxt-link>
-              <nuxt-link to="./services" class="navbar-item has-text-white  dropdown-item">
+              <nuxt-link to="/services" class="navbar-item has-text-white  dropdown-item">
                 Our Services
               </nuxt-link>
               <nuxt-link to="/about#homelessness" class="navbar-item has-text-white  dropdown-item">
@@ -41,38 +41,38 @@
           </div>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-semibold">
+            <nuxt-link to="/residents" class="navbar-link has-text-primary has-text-weight-semibold">
               Residents
-            </a>
+            </nuxt-link>
 
             <div class="navbar-dropdown is-right has-background-primary has-text-white">
-              <a class="navbar-item has-text-white  dropdown-item">
+              <nuxt-link to="/residents" class="navbar-item has-text-white  dropdown-item">
                 Report a Repair
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
+              </nuxt-link>
+              <nuxt-link to="/residents" class="navbar-item has-text-white  dropdown-item">
                 Paying Rent
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
+              </nuxt-link>
+              <nuxt-link to="/residents" class="navbar-item has-text-white  dropdown-item">
                 Anti-social Behaviour
-              </a>
-              <a class="navbar-item has-text-white  dropdown-item">
+              </nuxt-link>
+              <nuxt-link to="/residents#useful-information" class="navbar-item has-text-white  dropdown-item">
                 Useful Information
-              </a>
+              </nuxt-link>
               <a class="navbar-item has-text-white  dropdown-item">
                 Case Studies
               </a>
-              <a class="navbar-item has-text-white  dropdown-item">
+              <nuxt-link to="/residents#downloads" class="navbar-item has-text-white  dropdown-item">
                 Downloads
-              </a>
+              </nuxt-link>
             </div>
           </div>
           
           <nuxt-link to="/referral" class="navbar-item has-text-primary has-text-weight-semibold is-size-6"> Referrals </nuxt-link>
 
           <div class="navbar-item has-dropdown has-text-primary is-hoverable is-size-6">
-            <a class="navbar-link has-text-primary has-text-weight-semibold">
+            <nuxt-link to="/partners" class="navbar-link has-text-primary has-text-weight-semibold">
               Partners
-            </a>
+            </nuxt-link>
 
             <div class="navbar-dropdown is-right has-background-primary has-text-white">
               <nuxt-link to="/partners" class="navbar-item has-text-white  dropdown-item">
